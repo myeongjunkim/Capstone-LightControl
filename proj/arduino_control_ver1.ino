@@ -13,11 +13,9 @@
 Servo servo1 = Servo(PIN_SERVO_1);  // 세타 값
 Servo servo2 = Servo(PIN_SERVO_2);  // r 값
 
-char line[];
+String line;
 float data1;
 float data2;
-
-
 
 void setup() {
     Serial.begin(9600);
@@ -41,7 +39,7 @@ void loop() {
         servo1.write(data1);
         servo2.write(data2);
 
-        delay(50);
+        delay(20);
     }
 
 
