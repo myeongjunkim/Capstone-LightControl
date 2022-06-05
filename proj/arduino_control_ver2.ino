@@ -52,6 +52,8 @@ void loop() {
   } else if (data2<0){
     data2 = 0;
   }
+
+  // 분기 처리 한번 진행
   
   servo1.write(data1);
   servo2.write(data2);
