@@ -1,4 +1,4 @@
-# Capstone_light_control
+# Capstone/Light-Control
 
 ## 1.  Purpose of project      
    
